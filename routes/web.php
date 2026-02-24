@@ -4,6 +4,12 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use Laravel\Fortify\Features;
 
+Route::get('/features', function () {
+    $features = DB::table('laravelfeatures')->get();
+
+    return view('features', compact('features'));
+});
+
 Route::get('/', function () {
     return Inertia::render('welcome', [
         'canRegister' => Features::enabled(Features::registration()),

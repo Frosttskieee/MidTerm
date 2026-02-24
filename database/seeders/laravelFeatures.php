@@ -13,16 +13,16 @@ class laravelFeatures extends Seeder
     public function run(): void
     {
         DB::table('laravelfeatures')->insert([
-            ['name' => 'Model', 'Description' => 'Advanced'],
-            ['name' => 'View', 'Description' => 'Advanced'],
-            ['name' => 'Controller', 'Description' => 'Advanced'],
-            ['name' => 'Routes', 'Description' => 'Advanced'],
-            ['name' => 'Middleware', 'Description' => 'Advanced'],
-            ['name' => 'Blade Templates', 'Description' => 'Advanced'],
-            ['name' => 'Migrations', 'Description' => 'Advanced'],
-            ['name' => 'Seeders', 'Description' => 'Advanced'],
-            ['name' => 'Database', 'Description' => 'Advanced'],
-            ['name' => 'Eloquent ORM', 'Description' => 'Advanced'],
+            ['name' => 'Model', 'Description' => ''],
+            ['name' => 'View', 'Description' => ''],
+            ['name' => 'Controller', 'Description' => ''],
+            ['name' => 'Routes', 'Description' => ''],
+            ['name' => 'Middleware', 'Description' => ''],
+            ['name' => 'Blade Templates', 'Description' => ''],
+            ['name' => 'Migrations', 'Description' => ''],
+            ['name' => 'Seeders', 'Description' => ''],
+            ['name' => 'Database', 'Description' => ''],
+            ['name' => 'Eloquent ORM', 'Description' => ''],
         ]);
     }
 }

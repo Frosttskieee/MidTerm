@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('laravelfeatures', function (Blueprint $table) {
-            $table->id('ID');
+            $table->id();
             $table->string('name');
             $table->string('Description');
 
